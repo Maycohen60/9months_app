@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/Image_Logo"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/mini_logo" />
+
+
+    <LinearLayout
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/personal_area"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:textColorHint="#FFFFFF"
+            android:background="#6AE6BD"
+            android:drawableStart="@drawable/personal"
+            android:hint="Personal area"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/testResults"
+            android:layout_width="300dp"
+            android:textColorHint="#FFFFFF"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#FAD59E"
+            android:drawableStart="@drawable/test"
+            android:hint="My tests and results"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/recommendations"
+            android:layout_width="300dp"
+            android:layout_marginTop="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="#FFFFFF"
+            android:layout_marginHorizontal="100px"
+            android:background="#E6BFFF"
+            android:drawableStart="@drawable/recom"
+            android:hint="Recommendations"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/calender"
+            android:layout_width="300dp"
+            android:layout_marginTop="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="#FFFFFF"
+            android:layout_marginHorizontal="100px"
+            android:background="#FFC7DE"
+            android:drawableStart="@drawable/celennder"
+            android:hint="Pregnancy calender"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/QA"
+            android:layout_width="300dp"
+            android:layout_marginTop="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="#FFFFFF"
+            android:layout_marginHorizontal="100px"
+            android:background="#7BD3FF"
+            android:drawableStart="@drawable/qa"
+            android:hint="questions and answers"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/article"
+            android:layout_width="300dp"
+            android:layout_marginTop="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="#FFFFFF"
+            android:layout_marginHorizontal="100px"
+            android:background="#95EFF0"
+            android:drawableStart="@drawable/article"
+            android:hint="Articles and researches"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/log_out"
+            android:layout_width="100dp"
+            android:layout_marginTop="450dp"
+            android:layout_height="26dp"
+            android:background="#FFDFDD "
+            android:shadowColor="#FFDFDD"
+            android:text="log out"
+            android:textSize="16dp" />
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
