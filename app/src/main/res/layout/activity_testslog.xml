@@ -90,7 +90,7 @@
             android:textColorHint="#FFFFFF"
             android:hint="Change password"
             android:layout_marginTop="260dp"
-            android:textSize="20dp"
+            android:textSize="14dp"
             android:textStyle="bold" />
 
 
