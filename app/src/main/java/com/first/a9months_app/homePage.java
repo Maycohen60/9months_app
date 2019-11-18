@@ -13,6 +13,7 @@ public class homePage extends AppCompatActivity {
       personalA= (Button) findViewById(R.id.personalAr);
 
 
+
        /* personalA.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 Intent intent= new Intent(homePage.this, personalArea.class);
