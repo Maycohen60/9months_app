@@ -11,7 +11,7 @@ public class homePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
       personalA= (Button) findViewById(R.id.personalAr);
-
+/*try to comit
        /* personalA.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 Intent intent= new Intent(homePage.this, personalArea.class);
